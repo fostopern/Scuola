@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fosto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 04:01:30 PM"/>
+        <attribute name="created" value="Zm9zdG87TUFTVEVSOzIwMjMtMTAtMDk7MDM6NTA6MjkgUE07MjI5NQ=="/>
+        <attribute name="edited" value="Zm9zdG87TUFTVEVSOzIwMjMtMTAtMDk7MDQ6MDE6MzAgUE07MTsyMzky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserisci un valore per la variabile x&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Hai inserito il valore &quot; &amp; x &amp; &quot; per la variabile x&quot;" newline="True"/>
+            <if expression="x&lt;0">
+                <then>
+                    <output expression="&quot;Il valore inserito &#232; minore di 0&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="x&lt;100">
+                        <then>
+                            <output expression="&quot;Il valore inserito &#232; compreso fra 0 e 100 estremi inclusi&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Il valore inserito &#232; maggiore di 100&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

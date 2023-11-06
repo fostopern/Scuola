@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fosto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-02 05:28:37 PM"/>
+        <attribute name="created" value="Zm9zdG87TUFTVEVSOzIwMjMtMTAtMDI7MDU6MjI6NTEgUE07MjI4NA=="/>
+        <attribute name="edited" value="Zm9zdG87TUFTVEVSOzIwMjMtMTAtMDI7MDU6Mjg6MzcgUE07NDsyNDA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserisci il valore per la variabile x&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Inserisci un valore per la variabile y&quot;" newline="True"/>
+            <input variable="y"/>
+            <if expression="x==y">
+                <then>
+                    <output expression="&quot;x e y sono due numeri uguali&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="x&gt;y">
+                        <then>
+                            <output expression="&quot;x &#232; maggiore di y&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;y &#232; maggiore di x&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

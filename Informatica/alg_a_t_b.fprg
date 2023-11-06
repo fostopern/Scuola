@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fosto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-04 06:07:10 PM"/>
+        <attribute name="created" value="Zm9zdG87TUFTVEVSOzIwMjMtMTAtMDQ7MDU6NTU6NDIgUE07MjI5Mg=="/>
+        <attribute name="edited" value="Zm9zdG87TUFTVEVSOzIwMjMtMTAtMDQ7MDY6MDc6MTAgUE07MjsyMzk0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserisci il valore per la variabile a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Hai scelto il valore &quot; &amp; a &amp; &quot; per la variabile a&quot;" newline="True"/>
+            <output expression="&quot;Inserisci il valore per la variabile b&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Hai scelto il valore &quot; &amp; b &amp; &quot; per la variabile b&quot;" newline="True"/>
+            <assign variable="c" expression="a"/>
+            <assign variable="a" expression="b"/>
+            <assign variable="b" expression="c"/>
+            <output expression="&quot;Ora a vale &quot; &amp; a" newline="True"/>
+            <output expression="&quot;Ora b vale &quot; &amp; b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
