@@ -11,6 +11,9 @@ int main(){
   cout << operazioni << endl;
   cin >> scelta;
   switch (scelta) {
+  default:
+    cout << "Non hai inserito una scelta valida!" << endl;
+    break;
   case 0:
     cout << "La somma è: " << a+b << endl;
     break;
